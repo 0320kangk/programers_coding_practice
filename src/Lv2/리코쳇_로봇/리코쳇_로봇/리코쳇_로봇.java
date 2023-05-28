@@ -1,4 +1,4 @@
-package Lv2.리코쳇_로봇;
+package Lv2.리코쳇_로봇.리코쳇_로봇;
 
 import java.util.LinkedList;
 import java.util.Queue;
