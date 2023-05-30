@@ -1,7 +1,7 @@
 package Lv2.호텔_대실;
 import java.util.*;
 
-public class 호텔_대실 {
+public class 호텔_대실2 {
     public int solution(String[][] book_time) {
         //시간 정렬
         int[][] intsBookTime = new int[book_time.length][2];
@@ -31,7 +31,7 @@ public class 호텔_대실 {
     }
 
     public static void main(String[] args) {
-        호텔_대실 호텔_대실 = new 호텔_대실();
+        호텔_대실2 호텔_대실 = new 호텔_대실2();
         int solution = 호텔_대실.solution(new String[][]{{"15:00", "17:00"}, {"16:40", "18:20"}, {"14:20", "15:20"}, {"14:10", "19:20"}, {"18:20", "21:20"}});
         System.out.println(solution);
     }
