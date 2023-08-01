@@ -1,6 +1,6 @@
-package skillCheck.Lv2;
+package Lv2.java.N개의_최소공배수;
 
-public class 최소공배수_찾기 {
+public class N개의_최소공배수 {
     public int solution(int[] arr) {
         int answer = 0;
         int initValue = arr[0];
@@ -31,7 +31,7 @@ public class 최소공배수_찾기 {
     }
 
     public static void main(String[] args) {
-        최소공배수_찾기 문제1 = new 최소공배수_찾기();
+        N개의_최소공배수 문제1 = new N개의_최소공배수();
         int solution = 문제1.solution(new int[]{1,100,3,4 });
         System.out.println(solution);
     }

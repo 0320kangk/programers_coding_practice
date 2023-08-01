@@ -1,11 +1,8 @@
-package skillCheck;
+package Lv2.java.뉴스_클러스터링;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
 
-public class 문제1 {
+public class 뉴스_클러스터링 {
     public int solution(String str1, String str2) {
         int answer = 0;
 
@@ -50,7 +47,7 @@ public class 문제1 {
     }
 
     public static void main(String[] args) {
-        문제1 문제1 = new 문제1();
+        뉴스_클러스터링 문제1 = new 뉴스_클러스터링();
         int solution = 문제1.solution("E=M*C^2", "e=m*c^2");
         System.out.println(solution);
     }

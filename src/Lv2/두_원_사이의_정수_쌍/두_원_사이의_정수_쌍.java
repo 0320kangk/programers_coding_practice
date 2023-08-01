@@ -1,4 +1,4 @@
-package Lv2.두_원_사이의_정수_쌍;
+package Lv2.java.두_원_사이의_정수_쌍;
 
 public class 두_원_사이의_정수_쌍 {
     public long solution(int r1, int r2) {
@@ -11,9 +11,9 @@ public class 두_원_사이의_정수_쌍 {
             long pow = (long) Math.pow(i, 2);
             long y1 = (long) Math.sqrt( r1x - pow);
             long y2 = (long) Math.sqrt( r2x - pow);
-            answer += (y2 -y1) * 4;
+            answer += (y2 - y1) * 4;
             //작은 원의 선에 정수 쌍이 있을 때
-            if ( Math.sqrt( r1x - pow)%1 == 0  ){
+            if ( Math.sqrt(r1x - pow)%1 == 0 ){
                 side++;
             }
         }

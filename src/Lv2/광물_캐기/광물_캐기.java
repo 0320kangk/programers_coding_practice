@@ -1,4 +1,4 @@
-package Lv2.광물_캐기;
+package Lv2.java.광물_캐기;
 import java.util.Arrays;
 public class 광물_캐기 {
     public int solution(int[] picks, String[] minerals) {

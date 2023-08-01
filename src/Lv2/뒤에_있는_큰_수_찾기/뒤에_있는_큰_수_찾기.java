@@ -1,7 +1,5 @@
-package Lv2.뒤에_있는_큰_수_찾기;
+package Lv2.java.뒤에_있는_큰_수_찾기;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class 뒤에_있는_큰_수_찾기 {
