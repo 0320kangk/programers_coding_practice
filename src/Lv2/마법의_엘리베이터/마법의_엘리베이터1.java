@@ -1,8 +1,8 @@
-package Lv2.마법의_엘리베이터;
+package Lv2.java.마법의_엘리베이터;
 
 import java.util.Stack;
 
-public class 마법의_엘리베이터 {
+public class 마법의_엘리베이터1 {
 
     public int solution(int storey) {
         int answer = 0;
@@ -36,7 +36,7 @@ public class 마법의_엘리베이터 {
 
 
     public static void main(String[] args) {
-        마법의_엘리베이터 마법의_엘리베이터 = new 마법의_엘리베이터();
+        마법의_엘리베이터1 마법의_엘리베이터 = new 마법의_엘리베이터1();
         int solution = 마법의_엘리베이터.solution(154);
         System.out.println(solution);
     }

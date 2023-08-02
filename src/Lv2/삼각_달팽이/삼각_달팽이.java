@@ -1,13 +1,11 @@
-package skillCheck;
+package Lv2.java.삼각_달팽이;
 
 
 import java.util.Arrays;
 
-public class 문제1 {
+public class 삼각_달팽이 {
     public int[] solution(int n) {
-
         int[][] triangle = new int[n][n];
-        //아래, 오른쪽 왼쪽 위
         int size = ((n + 1) * n ) / 2;
         int[] answer = new int[size];
         int x = -1;
@@ -26,7 +24,6 @@ public class 문제1 {
                 triangle[x][y] = num++;
             }
         }
-
         int i = 0;
         for (int[] ints : triangle) {
             for (int anInt : ints) {
@@ -38,8 +35,8 @@ public class 문제1 {
     }
 
     public static void main(String[] args) {
-        문제1 문제1 = new 문제1();
-        int[] solution = 문제1.solution(6);
+        삼각_달팽이 삼각_달팽이 = new 삼각_달팽이();
+        int[] solution = 삼각_달팽이.solution(6);
         System.out.println(Arrays.toString(solution));
     }
 

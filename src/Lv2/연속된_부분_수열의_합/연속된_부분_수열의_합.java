@@ -1,4 +1,4 @@
-package Lv2.연속된_부분_수열의_합;
+package Lv2.java.연속된_부분_수열의_합;
 
 import java.util.*;
 

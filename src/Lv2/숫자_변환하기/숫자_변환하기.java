@@ -1,4 +1,4 @@
-package Lv2.숫자_변환하기;
+package Lv2.java.숫자_변환하기;
 import java.util.*;
 public class 숫자_변환하기 {
     public int solution(int x, int y, int n) {
