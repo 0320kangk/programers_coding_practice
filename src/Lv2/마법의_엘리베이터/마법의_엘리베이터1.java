@@ -1,4 +1,4 @@
-package Lv2.java.마법의_엘리베이터;
+package Lv2.마법의_엘리베이터;
 
 import java.util.Stack;
 

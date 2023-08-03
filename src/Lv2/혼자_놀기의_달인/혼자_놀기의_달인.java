@@ -1,4 +1,4 @@
-package Lv2.java.혼자_놀기의_달인;
+package Lv2.혼자_놀기의_달인;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,7 +10,7 @@ public class 혼자_놀기의_달인 {
         int groupIndex = 0;
 
         for (int i = 0; i < used.length; i++) {
-            if (used[i] == false) {
+            if (!used[i]) {
                 groupSize[groupIndex++] = findGroup(cards, used, i + 1, 0);
             }
         }
@@ -19,7 +19,7 @@ public class 혼자_놀기의_달인 {
         return answer;
     }
     int findGroup (int [] cards, boolean[] used, int card, int length) {
-        if (used[card - 1] == false) {
+        if (!used[card - 1]) {
            used[card - 1] = true;
            length = findGroup(cards, used, cards[card - 1], length + 1);
         }

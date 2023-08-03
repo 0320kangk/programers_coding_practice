@@ -1,4 +1,4 @@
-package Lv2.java.혼자서_하는_틱택토;
+package Lv2.혼자서_하는_틱택토;
 
 public class 혼자서_하는_틱택톡 {
     public int solution(String[] board) {
@@ -49,8 +49,9 @@ public class 혼자서_하는_틱택톡 {
         for (int i = 0; i < 3; i++) {
             boolean flag = true;
             for (int j = 0; j < 3; j++) {
-                if(board[i].charAt(j) != sign ){
+                if (board[i].charAt(j) != sign) {
                     flag = false;
+                    break;
                 }
             }
             if (flag) {
@@ -61,8 +62,9 @@ public class 혼자서_하는_틱택톡 {
         for (int i = 0; i < 3; i++) {
             boolean flag = true;
             for (int j = 0; j < 3; j++) {
-                if(board[j].charAt(i) != sign ){
+                if (board[j].charAt(i) != sign) {
                     flag = false;
+                    break;
                 }
             }
             if (flag) {
@@ -75,12 +77,9 @@ public class 혼자서_하는_틱택톡 {
         board[2].charAt(2) == sign) {
             return true;
         }
-        if (board[0].charAt(2)==sign &&
-        board[1].charAt(1) == sign &&
-        board[2].charAt(0) == sign) {
-            return true;
-        }
-        return false;
+        return board[0].charAt(2) == sign &&
+                board[1].charAt(1) == sign &&
+                board[2].charAt(0) == sign;
     }
 
 

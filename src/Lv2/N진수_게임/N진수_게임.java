@@ -1,4 +1,4 @@
-package Lv2.java.N진수_게임;
+package Lv2.N진수_게임;
 
 public class N진수_게임 {
     public String solution(int n, int t, int m, int p) {

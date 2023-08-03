@@ -1,4 +1,4 @@
-package Lv2.java._2개_이하로_다른_비트;
+package Lv2._2개_이하로_다른_비트;
 
 import java.util.Arrays;
 public class _2개_이하로_다른_비트 {

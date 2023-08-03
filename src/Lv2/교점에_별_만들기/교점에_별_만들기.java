@@ -1,4 +1,4 @@
-package Lv2.java.교점에_별_만들기;
+package Lv2.교점에_별_만들기;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,8 +14,8 @@ public class 교점에_별_만들기 {
                 if ((e1[0] * e2[1] - e1[1] * e2[0]) == 0)
                     continue;
 
-                double x = ( 1l * e1[1] * e2[2] - 1l * e1[2] * e2[1]  ) * 1.0 / ( 1l * e1[0] * e2[1] - 1l *e1[1] * e2[0]);
-                double y = ( 1l * e1[2] * e2[0] - 1l * e1[0] * e2[2] ) * 1.0 / ((1l * e1[0] * e2[1]) - (1l * e1[1] * e2[0]));
+                double x = ((long) e1[1] * e2[2] - (long) e1[2] * e2[1]) * 1.0 / ((long) e1[0] * e2[1] - (long) e1[1] * e2[0]);
+                double y = ((long) e1[2] * e2[0] - (long) e1[0] * e2[2]) * 1.0 / (((long) e1[0] * e2[1]) - ((long) e1[1] * e2[0]));
                 if ( x != (long) x ||
                         y != (long)y )
                     continue;

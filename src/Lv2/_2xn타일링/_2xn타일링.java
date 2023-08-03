@@ -1,4 +1,4 @@
-package Lv2.java._2xn타일링;
+package Lv2._2xn타일링;
 
 public class _2xn타일링 {
     public int solution(int n) {

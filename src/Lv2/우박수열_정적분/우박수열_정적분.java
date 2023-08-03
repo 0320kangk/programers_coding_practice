@@ -1,4 +1,4 @@
-package Lv2.java.우박수열_정적분;
+package Lv2.우박수열_정적분;
 
 import java.util.ArrayList;
 import java.util.Arrays;

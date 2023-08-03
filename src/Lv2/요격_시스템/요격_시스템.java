@@ -1,4 +1,4 @@
-package Lv2.java.요격_시스템;
+package Lv2.요격_시스템;
 
 import java.util.Arrays;
 public class 요격_시스템 {

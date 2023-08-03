@@ -1,4 +1,4 @@
-package Lv2.java.순위검색;
+package Lv2.순위검색;
 
 import java.util.*;
 

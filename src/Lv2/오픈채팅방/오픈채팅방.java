@@ -1,4 +1,4 @@
-package Lv2.java.오픈채팅방;
+package Lv2.오픈채팅방;
 
 import java.util.ArrayList;
 import java.util.HashMap;

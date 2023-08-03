@@ -1,4 +1,4 @@
-package Lv2.java.택배상자;
+package Lv2.택배상자;
 
 import java.util.Stack;
 

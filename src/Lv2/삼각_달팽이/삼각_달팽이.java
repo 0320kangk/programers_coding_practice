@@ -1,4 +1,4 @@
-package Lv2.java.삼각_달팽이;
+package Lv2.삼각_달팽이;
 
 
 import java.util.Arrays;

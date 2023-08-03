@@ -1,4 +1,4 @@
-package Lv2.java.택배_배달과_수거하기;
+package Lv2.택배_배달과_수거하기;
 
 
 import java.util.Stack;

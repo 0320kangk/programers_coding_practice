@@ -1,4 +1,4 @@
-package Lv2.java.귤_고르기;
+package Lv2.귤_고르기;
 
 import java.util.*;
 

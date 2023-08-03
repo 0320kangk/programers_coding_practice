@@ -1,4 +1,4 @@
-package Lv2.java._124_나라의_숫자;
+package Lv2._124_나라의_숫자;
 
 public class _124_나라의_숫자 {
     public String solution(int n) {

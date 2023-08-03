@@ -1,4 +1,4 @@
-package Lv2.java.무인도_여행;
+package Lv2.무인도_여행;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +23,7 @@ public class 무인도_여행 {
                 int ny = move[1] + dy[i];
                 if ( nx < maps.length && nx >= 0 &&
                     ny < maps[0].length() && ny >= 0) {
-                    if (usedMap[nx][ny] == false) {
+                    if (!usedMap[nx][ny]) {
                         usedMap[nx][ny] = true;
                         queue.add(new Integer[]{nx, ny});
                     }
@@ -47,7 +47,7 @@ public class 무인도_여행 {
         }
         for (int i = 0; i < usedMap.length; i++) {
             for (int j = 0; j < usedMap[0].length; j++) {
-                if (usedMap[i][j] == false){
+                if (!usedMap[i][j]){
                     sums.add(bfsFindLand(new Integer[]{i, j}, usedMap, maps));
                 }
             }

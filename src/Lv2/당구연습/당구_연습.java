@@ -1,4 +1,4 @@
-package Lv2.java.당구연습;
+package Lv2.당구연습;
 
 import java.util.ArrayList;
 import java.util.List;

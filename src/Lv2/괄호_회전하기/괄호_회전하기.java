@@ -1,4 +1,4 @@
-package Lv2.java.괄호_회전하기;
+package Lv2.괄호_회전하기;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Lv2.java.거리두기_확인하기;
+package Lv2.거리두기_확인하기;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -71,7 +71,7 @@ public class 거리두기_확인하기 {
                             }
                         }
                 }
-                if (able == false) {
+                if (!able) {
                     answer[key] = 0;
                     break;
                 }

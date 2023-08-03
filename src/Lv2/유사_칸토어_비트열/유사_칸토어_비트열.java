@@ -1,4 +1,4 @@
-package Lv2.java.유사_칸토어_비트열;
+package Lv2.유사_칸토어_비트열;
 
 
 //해결 못한 문제

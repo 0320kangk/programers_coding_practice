@@ -1,4 +1,4 @@
-package Lv2.java.할인_행사;
+package Lv2.할인_행사;
 
 import java.util.*;
 

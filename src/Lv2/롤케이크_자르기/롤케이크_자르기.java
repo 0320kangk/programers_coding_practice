@@ -1,4 +1,4 @@
-package Lv2.java.롤케이크_자르기;
+package Lv2.롤케이크_자르기;
 
 import java.util.HashMap;
 import java.util.HashSet;

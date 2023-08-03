@@ -1,4 +1,4 @@
-package Lv2.java.시소_짝꿍;
+package Lv2.시소_짝꿍;
 
 import java.util.HashMap;
 import java.util.Set;

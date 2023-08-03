@@ -1,4 +1,4 @@
-package Lv2.java.디펜스_게임;
+package Lv2.디펜스_게임;
 
 import java.util.PriorityQueue;
 

@@ -1,4 +1,4 @@
-package Lv2.java.주차_요금_계산;
+package Lv2.주차_요금_계산;
 
 import java.util.*;
 
