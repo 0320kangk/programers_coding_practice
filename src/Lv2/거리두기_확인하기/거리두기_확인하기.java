@@ -71,7 +71,7 @@ public class 거리두기_확인하기 {
                             }
                         }
                 }
-                if (able == false) {
+                if (!able) {
                     answer[key] = 0;
                     break;
                 }

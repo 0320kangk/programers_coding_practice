@@ -44,7 +44,7 @@ public class 리코쳇_로봇 {
                         ny >= col || ny < 0 ||
                         board[nx].charAt(ny) == 'D'
                 ) {
-                    if ( used[nx - dx[i]][ny - dy[i]] == false) {
+                    if (!used[nx - dx[i]][ny - dy[i]]) {
                         used[nx - dx[i]][ny - dy[i]] = true; //사용된 좌표
                         queue.add(new int[]{nx - dx[i], ny - dy[i], poll[2]+1});
                     }

@@ -50,7 +50,7 @@ public class 미로_탈출 {
                 int ny = point.col + dy[i]; //열 이동
                 if ( nx < row && nx >= 0 &&
                 ny < col && ny >= 0 ) {
-                    if (visited[nx][ny] == false &&
+                    if (!visited[nx][ny] &&
                     maps[nx].charAt(ny) != 'X' ) {
                         visited[nx][ny] = true;
                         queue.add(new Point(nx, ny, point.d + 1));

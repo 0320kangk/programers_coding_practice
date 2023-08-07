@@ -34,7 +34,7 @@ public class 거리두기_확인하기2 {
             if (x >= 0 && x < place.length &&
                     y >= 0 && y <  place[0].length()
             ) {
-                if ( used[x][y] == false &&
+                if ( !used[x][y] &&
                         ( place[x].charAt(y) == 'O' || place[x].charAt(y) == 'P')
                 ){
                     used[x][y] = true;

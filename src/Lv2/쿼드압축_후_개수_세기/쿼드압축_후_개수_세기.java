@@ -1,9 +1,11 @@
 package Lv2.쿼드압축_후_개수_세기;
+
 public class 쿼드압축_후_개수_세기 {
     int one = 0, zero = 0;
     public int[] solution(int[][] arr) {
         int[] answer = {zero, one};
         divide(arr, 0, arr.length, 0, arr.length);
+        
         return answer;
     }
 

@@ -17,7 +17,7 @@ public class 두_원_사이의_정수_쌍 {
                 side++;
             }
         }
-        answer += side * 4 -4; // x=0 or y=0 일 때의 정수 쌍이 4번 겹치게 된다.
+        answer += side * 4L -4; // x=0 or y=0 일 때의 정수 쌍이 4번 겹치게 된다.
         return answer;
     }
     public static void main(String[] args) {
