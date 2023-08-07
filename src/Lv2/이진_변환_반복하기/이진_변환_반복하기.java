@@ -1,4 +1,4 @@
-package Lv2.java.이진_변환_반복하기;
+package Lv2.이진_변환_반복하기;
 
 public class 이진_변환_반복하기 {
     public int[] solution(String s) {

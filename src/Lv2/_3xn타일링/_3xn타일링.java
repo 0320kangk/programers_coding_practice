@@ -1,4 +1,4 @@
-package Lv2.java._3xn타일링;
+package Lv2._3xn타일링;
 
 public class _3xn타일링 {
     public int solution(int n) {

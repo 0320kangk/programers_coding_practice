@@ -1,4 +1,4 @@
-package Lv2.java.숫자_카드_나누기;
+package Lv2.숫자_카드_나누기;
 
 import java.util.ArrayList;
 import java.util.Arrays;

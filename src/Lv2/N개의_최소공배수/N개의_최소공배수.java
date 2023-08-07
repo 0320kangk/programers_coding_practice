@@ -1,4 +1,4 @@
-package Lv2.java.N개의_최소공배수;
+package Lv2.N개의_최소공배수;
 
 public class N개의_최소공배수 {
     public int solution(int[] arr) {

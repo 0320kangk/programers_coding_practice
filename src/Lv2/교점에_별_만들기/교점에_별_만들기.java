@@ -1,4 +1,4 @@
-package Lv2.java.교점에_별_만들기;
+package Lv2.교점에_별_만들기;
 
 import java.util.ArrayList;
 import java.util.Collections;

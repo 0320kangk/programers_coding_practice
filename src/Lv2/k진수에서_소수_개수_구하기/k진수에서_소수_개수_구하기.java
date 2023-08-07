@@ -1,4 +1,4 @@
-package Lv2.java.k진수에서_소수_개수_구하기;
+package Lv2.k진수에서_소수_개수_구하기;
 
 
 

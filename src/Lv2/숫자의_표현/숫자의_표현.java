@@ -1,4 +1,4 @@
-package Lv2.java.숫자의_표현;
+package Lv2.숫자의_표현;
 
 public class 숫자의_표현 {
     public int solution(int n) {

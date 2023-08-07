@@ -1,4 +1,4 @@
-package Lv2.java.행렬_테두리_회전하기;
+package Lv2.행렬_테두리_회전하기;
 
 import java.util.ArrayList;
 import java.util.Arrays;

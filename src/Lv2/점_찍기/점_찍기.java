@@ -1,4 +1,4 @@
-package Lv2.java.점_찍기;
+package Lv2.점_찍기;
 
 public class 점_찍기 {
     public long solution(int k, int d) {

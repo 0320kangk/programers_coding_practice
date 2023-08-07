@@ -1,4 +1,4 @@
-package Lv2.java.과제_진행하기;
+package Lv2.과제_진행하기;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

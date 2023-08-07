@@ -1,4 +1,4 @@
-package Lv2.java.메뉴_리뉴얼;
+package Lv2.메뉴_리뉴얼;
 
 import java.util.*;
 import java.util.stream.Collectors;

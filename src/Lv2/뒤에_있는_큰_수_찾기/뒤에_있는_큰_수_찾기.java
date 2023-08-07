@@ -1,4 +1,4 @@
-package Lv2.java.뒤에_있는_큰_수_찾기;
+package Lv2.뒤에_있는_큰_수_찾기;
 
 import java.util.Stack;
 

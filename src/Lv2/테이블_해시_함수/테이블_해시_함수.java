@@ -1,4 +1,4 @@
-package Lv2.java.테이블_해시_함수;
+package Lv2.테이블_해시_함수;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Lv2.java.n2_배열_자르기;
+package Lv2.n2_배열_자르기;
 
 import java.util.Arrays;
 

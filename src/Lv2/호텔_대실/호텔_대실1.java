@@ -1,4 +1,4 @@
-package Lv2.java.호텔_대실;
+package Lv2.호텔_대실;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

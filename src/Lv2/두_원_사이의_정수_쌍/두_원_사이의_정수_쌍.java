@@ -1,4 +1,4 @@
-package Lv2.java.두_원_사이의_정수_쌍;
+package Lv2.두_원_사이의_정수_쌍;
 
 public class 두_원_사이의_정수_쌍 {
     public long solution(int r1, int r2) {

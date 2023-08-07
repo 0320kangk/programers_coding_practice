@@ -1,4 +1,4 @@
-package Lv2.java.이모티콘_할인행사;
+package Lv2.이모티콘_할인행사;
 
 import java.util.*;
 

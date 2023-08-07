@@ -1,4 +1,4 @@
-package Lv2.java.거리두기_확인하기;
+package Lv2.거리두기_확인하기;
 
 import java.util.Arrays;
 

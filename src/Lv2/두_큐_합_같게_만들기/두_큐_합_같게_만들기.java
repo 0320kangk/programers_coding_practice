@@ -1,4 +1,4 @@
-package Lv2.java.두_큐_합_같게_만들기;
+package Lv2.두_큐_합_같게_만들기;
 
 import java.util.LinkedList;
 import java.util.Queue;

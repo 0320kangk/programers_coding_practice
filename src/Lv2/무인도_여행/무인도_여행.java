@@ -1,4 +1,4 @@
-package Lv2.java.무인도_여행;
+package Lv2.무인도_여행;
 
 import java.util.ArrayList;
 import java.util.Arrays;

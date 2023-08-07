@@ -1,4 +1,4 @@
-package Lv2.java.양궁대회;
+package Lv2.양궁대회;
 
 import java.util.Arrays;
 

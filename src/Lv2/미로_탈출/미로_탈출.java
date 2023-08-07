@@ -1,4 +1,4 @@
-package Lv2.java.미로_탈출;
+package Lv2.미로_탈출;
 
 import java.util.LinkedList;
 import java.util.Queue;

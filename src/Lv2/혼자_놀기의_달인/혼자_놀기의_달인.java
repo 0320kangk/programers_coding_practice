@@ -1,4 +1,4 @@
-package Lv2.java.혼자_놀기의_달인;
+package Lv2.혼자_놀기의_달인;
 
 import java.util.Arrays;
 import java.util.Collections;

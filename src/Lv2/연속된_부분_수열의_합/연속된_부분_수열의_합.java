@@ -1,9 +1,8 @@
-package Lv2.java.연속된_부분_수열의_합;
+package Lv2.연속된_부분_수열의_합;
 
 import java.util.*;
 
 public class 연속된_부분_수열의_합 {
-
     public int[] solution(int[] sequence, int k) {
         int left = 0; //시작부분
         int right = 0; // 끝부분

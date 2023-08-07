@@ -1,4 +1,4 @@
-package Lv2.java.뉴스_클러스터링;
+package Lv2.뉴스_클러스터링;
 
 import java.util.HashMap;
 
