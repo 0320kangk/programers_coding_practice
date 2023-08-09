@@ -5,7 +5,6 @@ public class 쿼드압축_후_개수_세기 {
     public int[] solution(int[][] arr) {
         int[] answer = {zero, one};
         divide(arr, 0, arr.length, 0, arr.length);
-        
         return answer;
     }
 
