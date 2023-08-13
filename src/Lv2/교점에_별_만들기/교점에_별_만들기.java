@@ -1,6 +1,7 @@
 package Lv2.교점에_별_만들기;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class 교점에_별_만들기 {
@@ -46,7 +47,9 @@ public class 교점에_별_만들기 {
         for (int i = 0; i < board.length; i++){
             board[i] = sb.toString();
         }
+
         for (Long[] point : list) {
+            System.out.println(Arrays.toString(point));
             int x = (int) (point[0] - minX);
             int y = (int)  (maxY  - point[1]);
             char[] chars = board[y].toCharArray();
