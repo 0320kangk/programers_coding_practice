@@ -26,7 +26,7 @@ public class 후보키 {
         return answer;
     }
 
-     */
+
      boolean unique(String[][] relation, int start, List<Set> setList, int row) {
         for (int j = 1; j < col; j++) {
             HashSet<String> set = new HashSet<>();
