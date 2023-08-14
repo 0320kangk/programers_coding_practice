@@ -34,8 +34,13 @@ public class _3xn타일링 {
     }
     //f(2) = f(n-2) * 3 + 2 f(n-4)*2+f....
     public static void main(String[] args) {
+<<<<<<< HEAD
         Lv2._3xn타일링 Lv2.삼각_달팽이 = new Lv2._3xn타일링();
         int solution = Lv2.삼각_달팽이.solution(5000);
+=======
+        _3xn타일링 삼각_달팽이 = new _3xn타일링();
+        int solution = 삼각_달팽이.solution(5000);
+>>>>>>> 3415db59db648b8d9bfd11f1c9855dc87b5dc734
         System.out.println(solution);
     }
 }
