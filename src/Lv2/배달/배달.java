@@ -3,7 +3,6 @@ package Lv2.배달;
 import java.util.*;
 
 public class 배달 {
-
     boolean[] visited;
     Set<Integer> set;
     public int solution(int N, int[][] road, int K) {
@@ -42,5 +41,4 @@ public class 배달 {
         int solution = 배달.solution(5, new int[][]{{1, 2, 1}, {2, 3, 3}, {5, 2, 2}, {1, 4, 2}, {5, 3, 1}, {5, 4, 2}}, 3);
         System.out.println(solution);
     }
-
 }

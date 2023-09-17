@@ -23,9 +23,6 @@ public class _2개_이하로_다른_비트 {
         }
         return answer;
     }
-
-
-
     public static void main(String[] args) {
         _2개_이하로_다른_비트 _2개_이하로_다른_비트 = new _2개_이하로_다른_비트();
         long[] solution = _2개_이하로_다른_비트.solution(new long[]{31});

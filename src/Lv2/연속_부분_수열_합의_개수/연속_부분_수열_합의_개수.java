@@ -1,6 +1,8 @@
 package Lv2.연속_부분_수열_합의_개수;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class 연속_부분_수열_합의_개수 {
     public int solution(int[] elements) {
@@ -18,6 +20,7 @@ public class 연속_부분_수열_합의_개수 {
             }
         }
         int answer = set.size();
+
         return answer;
     }
 

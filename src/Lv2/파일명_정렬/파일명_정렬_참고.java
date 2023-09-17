@@ -28,7 +28,6 @@ public class 파일명_정렬_참고 {
     public static void main(String[] args) {
         파일명_정렬_참고 파일명_정렬_참고 = new 파일명_정렬_참고();
         파일명_정렬_참고.solution(new String[]{"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"});
-
     }
 
 }
