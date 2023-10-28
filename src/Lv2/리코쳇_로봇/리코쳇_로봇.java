@@ -11,8 +11,6 @@ public class 리코쳇_로봇 {
         int row = board.length; //행
         int col = board[0].length(); //열
         Queue<int[]> queue = new LinkedList<>();
-        //어떻게 돌지?
-        //어떻게 탈출하지?찻지 못한경우.
         int[] startLocation = new int[3];
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -29,9 +27,6 @@ public class 리코쳇_로봇 {
         boolean result = false;
         while(!queue.isEmpty()) {
             int[] poll = queue.poll();
-            //끝점으로 갈 수 있는 방향 찾기
-            //상, 하, 좌, 우
-            //d를 만나기 전까지는 계속 이동해야 한다.
             int i = 0;
             int nx = poll[0]; // 행
             int ny = poll[1]; // 열
@@ -39,7 +34,7 @@ public class 리코쳇_로봇 {
             while ( i < 4) {
                 nx += dx[i]; // 행 이동
                 ny += dy[i]; // 열 이동
-                //길이 막힌 경우, 가고자 하느 ㄴ위치
+                //길이 막힌 경우, 가고자 하는 위치
                 if (nx >= row || nx < 0 ||
                         ny >= col || ny < 0 ||
                         board[nx].charAt(ny) == 'D'
@@ -52,8 +47,8 @@ public class 리코쳇_로봇 {
                         return poll[2] + 1;
                     }
                     i++;
-                    nx = poll[0]; // 행 이동
-                    ny = poll[1]; // 열 이동
+                    nx = poll[0];
+                    ny = poll[1];
                 }
             }
 

@@ -1,5 +1,6 @@
 package Lv2.혼자서_하는_틱택토;
 
+
 public class 혼자서_하는_틱택톡 {
     public int solution(String[] board) {
         int oCount = 0;

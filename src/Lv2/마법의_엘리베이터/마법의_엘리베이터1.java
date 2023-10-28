@@ -37,7 +37,7 @@ public class 마법의_엘리베이터1 {
 
     public static void main(String[] args) {
         마법의_엘리베이터1 마법의_엘리베이터 = new 마법의_엘리베이터1();
-        int solution = 마법의_엘리베이터.solution(154);
+        int solution = 마법의_엘리베이터.solution(545);
         System.out.println(solution);
     }
 }

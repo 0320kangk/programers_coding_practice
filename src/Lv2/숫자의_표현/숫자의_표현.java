@@ -5,7 +5,7 @@ public class 숫자의_표현 {
         int answer = 1;
         for (int i = 1; i <= Math.floor(n/2.0) ; i++) {
             int x = i;
-            int temp = x;
+            int temp = x + 1;
             while (true) {
                 x += temp;
                 temp++;
